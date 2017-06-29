@@ -1,7 +1,6 @@
 # import library
 from Tkinter import *
 import Tkinter
-import sys
 # ----------------
 def showpackage():
     import dircache
@@ -33,6 +32,6 @@ button = Button(root,text = 'delete', bg = '#f7f7f7')
 button.config(command=deletepackage)
 button.place(x = 250, y = 240)
 # ===================================================
-Label(root, text = sys.platform, bg = '#ccc')
+
 # ---------------------------------------------------
 root.mainloop() # Run widget
